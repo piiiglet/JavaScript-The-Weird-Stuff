@@ -10,7 +10,7 @@ function greet(firstname, lastname, language) {
   console.log(firstname);
   console.log(lastname);
   console.log(language);
-  console.log('arg 0: ' + arguments[0]);
+  console.log('arg 0: ' + arguments[0]);//arguments are kinda becoming deprecated, however still are useful to grab parameters.
   console.log('==========');
 }
 
